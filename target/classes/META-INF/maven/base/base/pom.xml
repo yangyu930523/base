@@ -3,6 +3,8 @@
   <groupId>base</groupId>
   <artifactId>base</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -16,4 +18,41 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-api</artifactId>
+  		<version>1.7.25</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-core</artifactId>
+  		<version>5.0.6.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-context</artifactId>
+  		<version>5.0.6.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.eclipse.jetty</groupId>
+  		<artifactId>jetty-servlet</artifactId>
+  		<version>9.4.1.v20170120</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-web</artifactId>
+  		<version>5.0.6.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.eclipse.jetty.websocket</groupId>
+  		<artifactId>websocket-servlet</artifactId>
+  		<version>9.4.1.v20170120</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-webmvc</artifactId>
+  		<version>5.0.6.RELEASE</version>
+  	</dependency>
+  </dependencies>
 </project>
